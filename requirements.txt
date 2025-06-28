@@ -1,1 +1,21 @@
-pandas
+# Core data processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# File handling and Excel support
+openpyxl>=3.0.0
+xlsxwriter>=3.0.0
+
+# Additional utilities
+pathlib2>=2.3.0  # For older Python versions
+typing-extensions>=4.0.0  # Enhanced type hints
+
+# Optional: For advanced analysis
+scipy>=1.9.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Development and testing (optional)
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0
